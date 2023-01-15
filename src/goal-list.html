@@ -22,7 +22,7 @@
         </div>
         <div id="goals_table">
         
-            <div class="goals_table_row goals_table_top_row">
+            <div class="goals_table_top_row">
                 <div>Goal title</div>
                 <div>Due date</div>
                 <div>Progress</div>
@@ -30,24 +30,28 @@
             </div>
 
             <div class="goals_table_row">
-                <div>Learn english</div>
+                <div class="goal_title">Learn english</div>
                 <div>2023-12-31</div>
-                <div>60%</div>
+                <div id="progress_1">60%</div>
                 <div>
-                    <a>View</a>
-                    <a>Delete</a>
+                    <a href="single-goal.html" class="goal_selection">View</a>
+                    <a class="goal_deletion">Delete</a>
                 </div>
             </div>
 
             <div class="goals_table_row">
-                <div>Learn english</div>
+                <div class="goal_title">Learn english</div>
                 <div>2023-12-31</div>
-                <div>60%</div>
+                <div id="progress_2">90%</div>
                 <div>
-                    <a>View</a>
-                    <a>Delete</a>
+                    <a href="single-goal.html" class="goal_selection">View</a>
+                    <a class="goal_deletion">Delete</a>
                 </div>
             </div>
+            <div class="button_wrapper">
+                <button class="goal_creator">Create new goal</button>
+            </div>
         </div>
+        
     </body>
 </html>

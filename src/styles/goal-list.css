@@ -14,15 +14,70 @@
     align-items: center;
     justify-content: flex-start;
     row-gap: 1em;
-    border: 1px solid black
 }
 
 .goals_table_row {
     display: grid;
-    grid-template: 100% / 5fr 1fr 1fr 1fr;
-    column-gap:1em;
+    grid-template: 100% / 3fr 1fr 1fr 1fr;
     border: 1px solid black;
     width: 80%;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.goals_table_top_row {
+    font-weight: bolder;
+    display: grid;
+    grid-template: 100% / 3fr 1fr 1fr 1fr;
+    width: 80%;
+    font-size: 111%;
+    text-align: center;
+    border-radius: 3px;
+}
+.goals_table_row > div {
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
+    border-right: 1px solid black;
+}
+.goals_table_row > div:last-child {
+    border-right: 0px;
+}
+
+.goal_selection, .goal_deletion {
+    text-decoration: underline;
+    padding: 0.2em;
+}
+.goal_deletion {
+    color:#C1292E;
+    cursor: pointer;
+}
+.goal_selection{
+    color: black;
+}
+
+.button_wrapper {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-top: 1em;
+}
+.goal_creator {
+    background-color: lightblue;
+    padding: 1em 3em 1em 3em;
+    border: 1px solid black;
+    border-radius: 3px;
+    align-self: flex-end;
 }
 
 
+
+
+
+#progress_1 {
+    background: linear-gradient(to right, lightblue 60%,white 40%);      
+}
+
+#progress_2 {
+    background: linear-gradient(to right, lightblue 90%,white 10%);
+}

@@ -4,30 +4,37 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <link rel="stylesheet" href="css/common.css">
+        <link rel="stylesheet" href="styles/register.css">
+        <link rel="stylesheet" href="styles/common.css">
     </head>
     <body>
-        
+        <div id="top_bar">
+            <div id="breadcrumbs">
+                <i>
+                    <a href="login.html" class="breadcrumb">Login</a> 
+                </i>
+                →
+                <i>
+                    <a href="register.html" class="breadcrumb">Registration</a>
+                </i>
+            </div>
+            <div id="main_title"><h3>Smart goals</h3></div>
+            <div id="logout_field"></div>
+        </div>
         <form id="reg_form">
             <div class="reg_div">
-                <h2 id="reg_title">Registration</h2>
+                <h3 id="reg_title">Please enter your account details:</h3>
                 
                 <label>Username:</label>
                 <input type="text" placeholder="Username" class="reg_input">
             
                 <label>Password:</label>
                 <input type="password" placeholder="Password" class="reg_input">
-                
-                <label>Your status:</label>
-                <select class="reg_input">
-                    <option name="mentor">Mentor</option>
-                    <option name="mentee">Mentee</option>
-                </select>
 
                 <label>Sex:</label>
                 <select class="reg_input">
-                    <option name="mentor">Man</option>
-                    <option name="mentee">Woman</option>
+                    <option name="man">Man</option>
+                    <option name="woman">Woman</option>
                 </select>       
                 
                 <label>Full name:</label>
@@ -43,7 +50,7 @@
                 <input type="text" placeholder="ZIP code" class="reg_input">
                 
                 <label>Email:</label>
-                <input type="text" placeholder="Email" class="reg_input">
+                <input type="email" placeholder="Email" class="reg_input">
          
                 <label>First language:</label>
                 <input type="text" placeholder="Language" class="reg_input">

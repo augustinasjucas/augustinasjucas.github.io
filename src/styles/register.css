@@ -31,18 +31,29 @@
 .reg_button {
     padding: 0.8em;
     margin: 0.5em;
-    width: 50%;
+    width: 46%;
     background-color: lightblue;
+    cursor: pointer;
+}
+.reg_button:hover{
+    background-color: black;
+    color: lightblue;
+    cursor: pointer;
 }
 
 .reg_input, .reg_div button, .reg_div textarea {
     border-radius: 3px;
-    border: 1px solid black
+    border: 1px solid black;  
 }
+
 textarea.reg_input {
     height: 70%;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
+
+input:focus::placeholder {
+    color: transparent;
+  }
 
 select.reg_input option {
     color: black;

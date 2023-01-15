@@ -1,0 +1,31 @@
+
+.sign_div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content:space-around;
+    min-height: 14em;
+}
+.sign_input {
+    margin: 0.5em;
+    padding: 0.5em;
+    text-align: center;
+    width: 20%;
+    min-width: 20em;
+}
+.sign_button {
+    padding: 0.4em;
+    margin: 0.5em;
+    width: 20%;
+    background-color: lightblue;
+    min-width: 20em;
+}
+.sign_div a {
+    color: black;
+
+}
+.sign_div input, .sign_div button {
+    border-radius: 3px;
+    border: 1px solid black
+}

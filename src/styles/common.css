@@ -1,0 +1,35 @@
+body {
+    margin: 0px;
+}
+#top_bar {
+    height: 1.8em;
+    width: 100%;
+    background-color: lightblue;
+    border-bottom: 2px solid black;
+
+    display:grid;
+    grid-template: 1.8em / 7fr 5fr 7fr;
+
+    align-items: center;
+    justify-content:space-between;
+}
+#main_title {
+    text-align: center;
+}
+
+#breadcrumbs {
+    margin: 0.5em;
+}
+
+#logout_field {
+    margin: 0.5em;    
+    text-align: right;
+}
+a.breadcrumb {
+    text-decoration: none;
+    color: black
+}
+#logout_a {
+    margin:0.5em;
+    color: black;
+}

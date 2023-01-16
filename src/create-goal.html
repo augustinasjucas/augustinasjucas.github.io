@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/create-goal.css">
+    <link rel="stylesheet" href="styles/common.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id = "top_bar">
+        <div id = "breadcrumbs">
+           <i> <a href="goal-list.html" class="breadcrumb"> Goal list</a>  → 
+            <a href="single-goal.html" class = "breadcrumb">Smart goals</a></i>
+        </div>
+
+        <div id = "main_title"> <h3>Single goal</h3></div>
+        <div id="logout_field">
+            My Full Name
+            <a href="login.html" id="logout_a">Logout</a>
+        </div>
+    </div>
+<section>
+    <form class="create-goal">
+        <div class="row">
+            <div class="type">Title:</div>
+            <div><input type="text" class="goal_title" required></div>
+        </div>
+        <div class="row">
+            <div class="type">SMART describtion:</div>
+            <div>
+                <div class = "texty">
+                    <div class = "quest">What exactly do I need to acomplish?</div>
+                    <div class = "goal_answ"><input type="text" class="goal_text"></div>
+                </div>
+                <div class = "texty">
+                    <div class = "quest">How will I measure my progress?</div>
+                    <div class = "goal_answ"><input type="text" class="goal_text"></div>
+                </div>
+                <div class = "texty">
+                    <div class = "quest">Can I actually complete my goal?</div>
+                    <div class = "goal_answ"><input type="text" class="goal_text"></div>
+                </div>
+                <div class = "texty">
+                    <div class = "quest">Why am I setting this goal?</div>
+                    <div class = "goal_answ"><input type="text" class="goal_text"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="type">Start date: </div>
+            <div class = "date_answ"><input type="date" class="date_answ"></div>
+        </div>
+        <div class="row">
+            <div class="type">Due date: </div>
+            <div class = "date_answ"><input type="date" class="date_answ"></div>
+        </div>
+        <div class = "row">
+            <div class="type">Targets:</div>
+            <div class="targets">
+                <div class = target>
+                    <div><input type="text" class="target_title" required></div>
+                    <div class = "add_new_target"><input type="button" value = "Add new target" required></div>
+                </div>
+            </div> 
+        </div> 
+        </div>
+        <div class = "row">
+            <div></div>
+            <div class="submit_button">
+                <div class><input type="submit" value = "Submit" required></div>
+            </div> 
+        </div>
+
+    </form>
+</section>
+</body>
+</html>

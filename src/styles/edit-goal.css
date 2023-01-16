@@ -1,0 +1,88 @@
+section{
+    display: flex;
+    justify-content: center;
+}
+.goal_wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 1em;
+}
+.create-goal{
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+}
+.row{
+    display: grid;
+    padding: 3px;
+    grid-template-columns: 2fr 5fr;
+    grid-template-rows: 100%;
+}
+
+.type{
+    padding: 1%;
+    text-align: left;
+    font-weight: bold;
+}
+.texty{
+    display: flex;
+    flex-direction: column;
+}
+.target{
+    display: flex;
+    flex-direction: row;
+    
+}
+.goal_answ{
+    margin-bottom: 3%;
+}
+.goal_text{
+    border-radius: 5px;
+    width: 100%;
+    min-height: 5em;
+    border: 1px solid black;
+}
+.goal_title{
+    height: 1.8em;
+    border-radius: 5px;
+    width: 100%;
+    border: 1px solid black;
+}
+.date_answ{
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 0.5em;
+}
+.t{
+    width: 100%;
+}
+
+.target_title{
+    height: 1.9em;
+    width: 100%;
+    margin-right: 0.3em;
+    border-radius: 5px;
+}
+.target{
+    display: flex;
+    flex-direction:row;
+}
+.b input[type = "button"]{
+    margin-left: 1em;
+    border: 1px solid black;
+}
+.submit_button_wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.sub_button{
+    width: auto;
+}
+.target_title {
+    border: 1px solid black;
+}

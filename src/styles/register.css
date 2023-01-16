@@ -58,3 +58,6 @@ input:focus::placeholder {
 select.reg_input option {
     color: black;
 }
+#reg_button_wrapper input {
+    width: 30%;
+}

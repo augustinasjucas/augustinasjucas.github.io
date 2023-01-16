@@ -45,7 +45,7 @@ input[type="button"], input[type="submit"] {
     padding: 0.5em;
 }
 input[type="button"]:hover, input[type="submit"]:hover{
-    background-color: coral;
+    background-color: #C1292E;
     color: white;
 }
 

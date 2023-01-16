@@ -21,8 +21,7 @@
 }
 
 .sign_button {
-    width: 30%;
-    color:red;
+    width: 20%;
 }
 
 .sign_div a {
@@ -34,6 +33,4 @@
 }
 input:focus::placeholder {
     color: transparent;
-  }
-
 }

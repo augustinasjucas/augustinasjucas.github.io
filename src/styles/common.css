@@ -33,3 +33,16 @@ a.breadcrumb {
     margin:0.5em;
     color: black;
 }
+input[type="button"]{
+    width: 40%;
+    background-color: lightblue;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    border:solid 2px black;
+    height: 1.8em;
+}
+input[type="button"]:hover{
+    background-color: grey;
+    color: white;
+}

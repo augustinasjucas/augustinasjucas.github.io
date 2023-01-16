@@ -14,10 +14,15 @@
     width: 20%;
     min-width: 20em;
 }
-.sign_in_button{
+.sign_in_button_wrapper{
     display: flex;
     justify-content: center;
     width: 100%;
+}
+
+.sign_button {
+    width: 30%;
+    color:red;
 }
 
 .sign_div a {
@@ -30,3 +35,5 @@
 input:focus::placeholder {
     color: transparent;
   }
+
+}

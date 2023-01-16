@@ -6,23 +6,30 @@ h4{
     margin: 0;
     text-align: center;
 }
+.goal_wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 1em;
+}
 .goal{
     margin: 4px;
-    border: solid 3px;
-    width: 98%;
-    display:flexbox;
+    width: 85%;
+    display: flex;
     flex-direction: column;
     border-radius: 3px;
 }
 .row{
     display: grid;
     padding: 3px;
-    grid-template-columns: 1fr 3fr;
+    grid-template-columns: 2fr 5fr;
     grid-template-rows: 100%;
     
 }
 .type{
     text-align: left;
+    padding-right: 1em;
+    font-weight: bold;
 }
 
 .text{
@@ -35,7 +42,7 @@ h4{
 }
 .quest{
     font-style: italic;
-    text-decoration:underline;
+    /* text-decoration:underline; */
 }
 .answ{
     color: black;
@@ -43,7 +50,7 @@ h4{
 }
 .target{
     margin-bottom: 5px;
-    border: solid 2px black;
+    border: solid 1px black;
     border-radius: 3px;
     display: flex;
     flex-direction: row;
@@ -52,7 +59,7 @@ h4{
 }
 .target_title{
     margin-top: 3px;
-    width: 50%;
+    width: 100%;
     text-align: center;
 }
 .target_button{
@@ -61,9 +68,13 @@ h4{
     flex-direction: row-reverse;
 }
 .target_button input[type = "button"]{
-    width: 90%;
+    width: auto;
 }
 .edit_button{
     display: flex;
     flex-direction: row-reverse;
+}
+
+.edit_button > input {
+    width: 7em;
 }

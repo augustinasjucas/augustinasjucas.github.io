@@ -27,22 +27,26 @@ body {
 }
 a.breadcrumb {
     text-decoration: none;
-    color: black
+    color: black;
+}
+a.breadcrumb:hover {
+    text-decoration: underline;
 }
 #logout_a {
     margin:0.5em;
     color: black;
 }
-input[type="button"]{
+input[type="button"], input[type="submit"] {
     width: 40%;
     background-color: lightblue;
     color: black;
     border-radius: 5px;
     cursor: pointer;
-    border:solid 2px black;
-    height: 1.8em;
+    border:solid 1px black;
+    height: 2em;
 }
-input[type="button"]:hover{
-    background-color: grey;
+input[type="button"]:hover, input[type="submit"]:hover{
+    background-color: coral;
     color: white;
 }
+
